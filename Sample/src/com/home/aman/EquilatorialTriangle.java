@@ -1,6 +1,6 @@
 package com.home.aman;
 
-public class RightTriangle {
+public class EquilatorialTriangle {
  
 	public static void main(String[] args) {
 		
