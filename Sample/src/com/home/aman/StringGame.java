@@ -2,16 +2,18 @@ package com.home.aman;
 
 public class StringGame {
 
-	public static String reverseLast(String word) {
-		char last = word.charAt(word.length()-1);
-		char secondLast = word.charAt(word.length()-2);
-		String data = word.substring(0,word.length()-2);
-		
-		return data + last + secondLast;
-	}
+	//reverse the last two strings in the word
+	
 	public static void main(String[] args) {
-		System.out.println(reverseLast("intelligent12"));
+		reverseLast("intelligent1234");
 		
 		
 	}
+	private static void reverseLast(String word) {
+		char last = word.charAt(word.length()-1);
+		char blast = word.charAt(word.length()-2);
+		String data = word.substring(0, word.length()-2);
+		
+	System.out.println(data + last +blast);
+}
 }
